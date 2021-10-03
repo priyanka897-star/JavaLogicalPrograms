@@ -16,7 +16,7 @@ public class FindPerfectNumber {
 
 		return sum;
 	}
-   public static void main(String args[]) {
+       public static void main(String args[]) {
 		int number, s;
 		Scanner scanner  = new Scanner(System.in);
 		System.out.print("Enter the number: ");
