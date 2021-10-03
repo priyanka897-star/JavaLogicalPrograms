@@ -8,9 +8,9 @@ public class CouponNumber {
 		return (int) (Math.random() * number);
 	}
 	
-    public static void TotalRandomNumber(int number) {
+       public static void TotalRandomNumber(int number) {
     	
-        boolean[] collect = new boolean[number];// collect[i] = true if card type i already collected
+                boolean[] collect = new boolean[number];// collect[i] = true if card type i already collected
 		int count = 0;
 		int notSame = 0;
 		// for number of cards you collect before obtaining one of each of the n types
@@ -23,7 +23,7 @@ public class CouponNumber {
 			}
 		}
 		System.out.println("Total Random Numbers needed: " + count);
-   }
+       }
 
 	public static void main(String[] args) {
 		
@@ -31,6 +31,6 @@ public class CouponNumber {
 		Scanner scanner = new Scanner(System.in);
 		int number = scanner.nextInt();
 		scanner.close();
-	    TotalRandomNumber(number);
+	       TotalRandomNumber(number);
   }
 }
