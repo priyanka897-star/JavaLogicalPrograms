@@ -2,8 +2,6 @@ package com.bl.logicalprograms;
 
 import java.util.Scanner;
 
-
-
 public class CheckPrimeNumber {
 	
 	public static  int check_prime(int n)
@@ -28,7 +26,5 @@ public class CheckPrimeNumber {
 		      System.out.println("Number is Prime");
 		else
 		      System.out.println("Number is not prime");
-		 
-	}
-
+      }
 }
